@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ContosoPizza.Controllers;
 
-[ApiController]
+[ApiController] //Permite comportamiento fundamental para realizar APIS 
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
